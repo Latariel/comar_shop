@@ -1,0 +1,109 @@
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #1aa632;
+}
+
+.block1 {
+    display: flex;
+    position: relative;
+    /*align-items: center;*/
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+}
+.img_center {
+    display: block;
+    flex-direction: row; /* Держим элементы в строке */
+    justify-content: space-between; /* Распределяем элементы внутри шапки */
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #19e738;
+    max-width: 80%;
+    height: auto;
+}
+.find {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transition: 3s;
+    flex: 1;
+}
+
+.drug_find {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transition: 2s;
+    flex: 1;
+}
+
+
+.find:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+}
+
+.drug_find:hover {
+    transform: scale(3); /* Увеличиваем масштаб */
+}
+
+.fish_find {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    transition: 2s;
+    flex: 1;
+}
+
+
+.fish_find:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+}
+
+.tigr_find {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transition: 2s;
+    flex: 1;
+}
+
+
+.tigr_find:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+}
+
+.sobaka_find {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transition: 2s;
+    flex: 1;
+}
+.sobaka_find:hover {
+    transform: scale(2.5); /* Увеличиваем масштаб */
+}
+
+h3 {
+    margin-top: 15px;
+    margin-left: 115px;
+    margin-bottom: 15px;
+    color: #7fef75;
+}
+
+p {
+    margin-left: 115px;
+    margin-bottom: 20px;
+    color: rgba(136, 136, 131, 0.9);
+}
+
+
+.footer {
+    display: flex;
+    height: 50px;
+    background-color: black;
+    line-height: 1.5;
+}

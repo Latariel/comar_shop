@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url("coursor4.png") 2 2, auto;
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+}
+@media only screen and (min-width: 360px) {
+    /* ruleset for >= 320px */
+    body {
+        background-color: #303641;
+        background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 25%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.2) 100%),
+        linear-gradient(90deg, #192129, #303641, #484e57);
+        background-size: 8px 8px, 100%;
+        /*cursor: url("coursor3.png"), pointer;*/
+    }
+
+    .top {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin: 0;
+        padding-bottom: 0;
+        padding-right: 10%;
+        height: 7%;
+        justify-content: space-between;
+        background-image: linear-gradient(to left, #434343 0%, black 100%);
+        font-family: "Droid Serif", serif;
+
+    }
+    .card_menu{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Geologica', sans-serif;
+        padding: 20px 20px;
+        padding-bottom: 60px;
+    }
+
+}
+
+.menu {
+    display: flex;
+    list-style: none ;
+    flex-direction: row; /* Держим элементы в строке */
+    justify-content: space-between; /* Распределяем элементы внутри шапки */
+    flex-wrap: wrap;
+}
+
+.menu li {
+    margin-left: 100px;
+    line-height: 2;
+}
+
+.menu li a {
+    color: chartreuse;
+    text-decoration: none;
+    font-family:  'Geologica', sans-serif;
+}
+header{
+    display: flex; /* Включаем режим Flexbox. */
+    flex-direction: row; /* Держим элементы в строке */
+    justify-content: space-between; /* Распределяем элементы внутри шапки */
+    flex-wrap: wrap;
+}

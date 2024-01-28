@@ -1,0 +1,52 @@
+.banner {
+    position: relative;
+    align-items: center;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #19e738;
+}
+
+.text {
+    justify-content: center;
+    max-width: 80%;
+    position: center;
+    bottom: 80px;
+    left: 20px;
+   background-image: url("../img/drigoi.png");
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    padding: 50px 30px 150px;
+    margin: 40px auto 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #8a42e8;
+}
+
+.text h1 {
+    margin-bottom: 40px;
+}
+
+.komar {
+    position: absolute;
+    /*top: 250px;*/
+    top: 30%;
+    /*left: 900px;*/
+    left: 75%;
+    transition: 2s;
+}
+
+
+.komar:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+}
+.footer {
+    display: flex;
+    height: 50px;
+    background-color: black;
+    line-height: 1.5;
+}
